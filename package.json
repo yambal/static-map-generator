@@ -1,12 +1,13 @@
 {
   "name": "static-map-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js library for generating static map images using OpenStreetMap tiles with markers, paths, and smart bounds fitting",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
     "demo": "npm run build && node demo/demo.js",
     "demo:ts": "npm run build && node -r ts-node/register demo/demo.ts",
     "test:simple": "node tests/simple-test.js",
