@@ -1,0 +1,74 @@
+# Source files (only ship compiled JS)
+src/
+tsconfig.json
+
+# Development files
+tests/
+demo/
+*.md
+!README.md
+
+# Test outputs and temporary files
+*.png
+*.jpg
+*.jpeg
+tests/output/
+demo/output/
+
+# Development dependencies
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# Git files
+.gitignore
+.git/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Development scripts and configs that users don't need
+.github/
+scripts/
+tools/
+
+# Demo and example files (keep essential examples only)
+demo-viewer.html
+bounds-*.png
+tokyo-*.png
+simple-*.png
+hd-*.png
+path-*.png
+zoom-*.png
+test-*.png
+
+# Backup files
+*.bak
+*.backup
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Cache files
+.npm
+.eslintcache
+*.tsbuildinfo
+
+# Environment files
+.env*
+
+# Package manager files users don't need
+.pnpm-debug.log*
+yarn-error.log*

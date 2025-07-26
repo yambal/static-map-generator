@@ -1,0 +1,55 @@
+{
+  "name": "static-map-generator",
+  "version": "1.0.0",
+  "description": "Node.js library for generating static map images using OpenStreetMap tiles with markers, paths, and smart bounds fitting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "demo": "npm run build && node demo/demo.js",
+    "demo:ts": "npm run build && node -r ts-node/register demo/demo.ts",
+    "test:simple": "node tests/simple-test.js",
+    "test:generate": "npm run build && node tests/generate-image-demo.js",
+    "test:bounds": "npm run build && node tests/bounds-demo.js",
+    "test:zoom": "npm run build && node tests/zoom-test.js",
+    "test:await": "npm run build && node tests/test-await.js",
+    "test:path": "npm run build && node tests/path-demo.js",
+    "test": "npm run test:simple"
+  },
+  "keywords": [
+    "static-map",
+    "openstreetmap",
+    "osm",
+    "map-tiles",
+    "markers",
+    "paths",
+    "routes",
+    "bounds",
+    "typescript",
+    "geolocation",
+    "image-generation",
+    "canvas",
+    "auto-fit",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/static-map-generator#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/static-map-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/static-map-generator/issues"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.0"
+  }
+}
