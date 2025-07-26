@@ -1,6 +1,6 @@
 {
   "name": "static-map-generator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Node.js library for generating static map images using OpenStreetMap tiles with markers, paths, and smart bounds fitting",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,15 +33,15 @@
     "auto-fit",
     "node"
   ],
-  "author": "",
+  "author": "June YAMAMOTO",
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/static-map-generator#readme",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/static-map-generator.git"
+    "url": "https://github.com/yambal/static-map-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/static-map-generator/issues"
+    "url": "https://github.com/yambal/static-map-generator/issues"
   },
   "dependencies": {
     "canvas": "^2.11.2",
